@@ -35,6 +35,11 @@ wp-config.php
 # htaccess
 /.htaccess
 
+# Exclure les fichiers de backup volumineux
+*.zip
+wp-content/wpvividbackups/
+
+
 # All plugins
 #
 # Note: If you wish to whitelist plugins,
